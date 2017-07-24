@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Design the Future</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/resources.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+        <!--<header class="header"></header>-->
+        <nav class="logo"><a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <ul>
+                        <li><a href="#"><img id="thumbnail" src="img/calendar_thumbnail.png" />First Day</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/calendar_thumbnail.png" />First Week</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/calendar_thumbnail.png" />First Month</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/calendar_thumbnail.png" />First 6 Months</a></li>
+                        <li class="dropdown-header">About</li>
+                        <li><a href="#"><img id="thumbnail" src="img/about_icon_alt_thumbnail.png" />About Us</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/business_world_thumbnail.png" />Our Way of Doing Business</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/performance_thumbnail.png" />Performance Management</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/benefits_thumbnail.png" />Benefits</a></li>
+                        <li class="dropdown-header">Other Resources</li>
+                        <li><a href="#"><img id="thumbnail" src="img/self_service_thumbnail.png" />HR Self-Service</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/heart_recolored_thumbnail.png" />Wellness Program</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span id="menuButton" onclick="openNav()">&#9776;</span>
+
+        <script>
+            /* Open when someone clicks on the span element */
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        </nav>
+        <header class="mobile"><p>Design The Future</p></header>
+        <div class="flex-grid" id="mainInfo">
+            <!--<div id="mainImage"><img src="img/handshake.jpg" class="img-responsive" /></div>-->
+            <div id="mainText">Design The Future</div>   
+        </div>
+        <div class="flex-grid" id="subheading">Free web development and design resources for refugees and under-represented populations</div>
+        <div class="flex-grid" id="lastRow">
+            <!--<div class="col" id="sidebar"></div>-->
+            <div class="col"><a href="#"><img src="img/why_icon.png" class="img-responsive" /></a></div>
+            <div class="col"><a href="#"><!--<img src="img/firstweek_alt.png" class="img-responsive" />-->Boot Camps</a></div>
+            <div class="col"><a href="#"><!--<img src="img/firstmonth_alt.png" class="img-responsive" />-->Online Learning</a></div>
+            <div class="col"><a href="#"><!--<img src="img/sixmonths_alt.png" class="img-responsive" />-->Graphics & Design</a></div>
+            <div class="col"><a href="#"><img src="img/why_icon.png" class="img-responsive" /></a></div>
+            <!--<div class="col" id="twoButtons"><a href="#"><img src="img/about_us.png" class="img-responsive" /></a><a href="#"><img src="img/performance .png" class="img-responsive" id="performance"/></a></div>
+            <div class="col" id="twoButtons"><a href="#"><img src="img/our_way.png" class="img-responsive" /></a><a href="#"><img src="img/benefits_alt.png" class="img-responsive" id="benefits"/></a></div>
+            <div class="col" id="ceridian"><a href="#"><img src="img/self-service.png" class="img-responsive" /></a></div>
+            <div class="col" id="wellness"><a href="#"><img src="img/wellness_alt.png" class="img-responsive" /></a></div>-->
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

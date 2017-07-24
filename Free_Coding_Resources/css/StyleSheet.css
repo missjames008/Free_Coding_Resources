@@ -1,0 +1,106 @@
+﻿
+    body{
+        margin:0;
+    }
+    #tealTopBar{
+        background-color: #31b8b1;
+        top:0;
+        width:100%;
+        margin-top:0;
+        margin-left:0;
+        margin-right:0;
+        height:30px;
+    }
+    #logoBar{
+        height:60px;
+        background-image:url(../img/logo_sandag.gif);
+        background-repeat:no-repeat;
+        background-position: left;
+        padding-left:2%;
+
+    }
+    #mainImage{
+        float:left;
+        background-image:url(../img/mainImageOne.png);
+        height:500px;
+        width:80%;
+        max-width: 1450px;
+        z-index:10;
+    }
+    #imageSideBar{
+        clear:both;
+        background-color:#0c7897;
+       width:25%;/**/ 
+        float:right;
+        margin-top:-500px;
+        margin-right:0;
+        height:500px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#fff;
+        padding-left: 20px;
+        font-size:2em;
+        vertical-align:middle;
+    }
+
+    #tealSideBar{
+        float:left;
+        background-color:#31b8b1;
+        width:1.5%;/**/
+        height:210px;
+        z-index:1;
+    }
+    #bottomNavBarLeft{
+        float:left;
+    background-color:#f3f3f4;
+    width:80%;
+    height:210px;
+    max-width:1400px;
+    }
+    #bottomNavBarRight{
+        float:left;
+        background-color:#b6ff00;
+        margin-right:0;
+        width:24.5%;
+        height:210px;
+        
+    }
+    #dayOneBtn {
+    float:left;
+    padding-top:12px;
+    padding-left:20px;
+    padding-bottom:12px;
+    padding-right:12px;
+    }
+    #weekOneBtn {
+    float:left;
+     padding:12px;
+    }
+    #monthOneBtn{
+        float:left;
+         padding:12px;
+    }
+    #monthSixBtn {
+            float:left;
+         padding:12px;
+}
+    #quadBtn{
+        float:right;
+        padding-top:12px;
+        padding-right:20px;
+        padding-bottom:12px;
+    }
+    #left2btn{
+        float:left;
+    }
+    #right2btn {
+    float:right;
+    }
+#ceridianBtn {
+    float:left;
+}
+    #wellnessBtn{
+    float:left;
+    }
+    .navBar{
+        margin-top:20px;
+    }
