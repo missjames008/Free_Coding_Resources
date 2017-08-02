@@ -27,7 +27,7 @@ body {
 
 .logo {
     display: flex;
-    background: #fff;
+    background: #eaecef;
     justify-content: space-between !important;
 }
 
@@ -122,10 +122,24 @@ ul {
 .mobile {
     text-align: left;
     font-weight: bold;
-    color: #009F92;
+    color: #08676d;
     padding-left: 20px;
+    padding-top: 15px;
     font-size: 2em;
     
+}
+
+#mobileSubheading {
+    display: flex;
+    flex: 1;
+    height: 20vh;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #08676d;
+    color: #fff;
+    justify-content: center !important;
+    flex-direction: row, column;
 }
 
 #mainText {
@@ -181,13 +195,17 @@ ul {
 }
 
 @media (min-width: 992px) {
-    .mobile, label, #menuButton {
+    .mobile, 
+    label, 
+    #menuButton,
+    #mobileSubheading {
         display: none !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .mobile,
+    #mobileSubheading,
     #wellness,
     #ceridian {
         display: none !important;
@@ -202,7 +220,8 @@ ul {
     #sidebar {
         display: none !important;
     }
-    #mainText {
+    #mainText,
+    #subheading {
         display: none !important;
     }
     #lastRow {
