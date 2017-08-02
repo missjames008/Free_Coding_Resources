@@ -1,0 +1,7 @@
+hex colors for resources site
+
+dark teal: #08676d
+light pink: #FCD4DF
+dark pink: #D581A2
+dark mauve: #A64A71
+light grey: #eaecef
