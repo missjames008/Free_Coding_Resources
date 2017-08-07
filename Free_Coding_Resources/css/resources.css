@@ -195,16 +195,45 @@ ul {
 }
 
 #whyText {
-    display: flex;
+    /*display: flex;
     flex: 1;
-    height: 45vh;
+    height: 45vh;*/
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 1.5em;   
     background: #eaecef;
-    justify-content: space-between !important;
+    align-items: center;
+}
+
+#whyIcons {
+    padding-right: 20px;
+}
+
+#bootcampHeading {
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    background-color: #08676d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+    justify-content: center !important;
+    align-items: flex-end;
+}
+
+#bootcampSubheading {
+    display: flex;
+    flex: 1;
+    height: 10vh;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #08676d;
+    color: #fff;
+    justify-content: center !important;
     flex-direction: row, column;
 }
 
