@@ -8,11 +8,11 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;  
-  
+  display: flex;
+
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  
+
 }
 
 .wrapper > * {
@@ -33,7 +33,7 @@ body {
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -126,7 +126,7 @@ ul {
     padding-left: 20px;
     padding-top: 15px;
     font-size: 2em;
-    
+
 }
 
 #mobileSubheading {
@@ -152,6 +152,14 @@ ul {
     font-size: 3em;
     justify-content: center !important;
     align-items: flex-end;
+}
+
+#weMobile {
+  color: #A64A71;
+}
+
+#we {
+  color: #D581A2;
 }
 
 #subheading {
@@ -204,7 +212,7 @@ ul {
     padding-right: 40px;
     padding-bottom: 20px;
     font-weight: bold;
-    font-size: 1.5em;   
+    font-size: 1.5em;
     background: #eaecef;
     align-items: center;
 }
@@ -214,7 +222,7 @@ ul {
     padding-right: 40px;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: 1.5em;   
+    font-size: 1.5em;
     background: #eaecef;
     align-items: center;
     justify-content: center;
@@ -269,9 +277,91 @@ ul {
     padding: 10px;
 }
 
+/*styling for boot camp modals*/
+
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#myBtn1,
+#myBtn2,
+#myBtn3,
+#myBtn4,
+#myBtn5,
+#myBtn6,
+#myBtn7 {
+  color: black;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   color: black;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 30px;
+   border: 1px solid #888;
+   width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close1,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6,
+.close7 {
+   color: #aaa;
+   float: right !important;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus
+ {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.listHeader {
+  text-align: left !important;
+}
+.list {
+  text-align: left !important;
+}
+
+#closeBtn5:hover,
+#closeBtn5:focus,
+#closeBtn6:hover,
+#closeBtn6:focus,
+#closeBtn7:hover,
+#closeBtn7:focus
+  {
+  color: black;
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
 @media (min-width: 992px) {
-    .mobile, 
-    label, 
+    .mobile,
+    label,
     #mobileSubheading,
     #whyMobile {
         display: none !important;
@@ -312,15 +402,3 @@ ul {
         right: 35px;
     }
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
