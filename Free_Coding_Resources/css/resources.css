@@ -145,7 +145,7 @@ ul {
 #mainText {
     display: flex;
     flex: 1;
-    height: 45vh;
+    height: 60vh;
     background-color: #08676d;
     color: #fff;
     font-weight: bold;
@@ -166,7 +166,7 @@ ul {
     display: flex;
     flex: 1;
     padding: 25px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #weMobile {
