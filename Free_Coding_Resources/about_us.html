@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>About ETA:NOW</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/resources.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav class="logo">
+            <a class="navbar-brand" href="index.html"><img src="img/home-icon.png" /></a>
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <ul>
+                        <li><a href="index.html"><img id="thumbnail" src="img/home_icon_thumbnail.png" />Home</a></li>
+                        <li><a href="about_us.html"><img id="thumbnail" src="img/why_thumbnail.png" />About ETA:NOW</a></li>
+                        <li><a href="why_web_dev.html"><img id="thumbnail" src="img/why_thumbnail.png" />Why Web Development?</a></li>
+                        <li><a href="boot_camps.html"><img id="thumbnail" src="img/boot_camps_thumbnail.png" />Boot Camps</a></li>
+                        <li><a href="online_learning.html"><img id="thumbnail" src="img/online_learning_thumbnail.png" />Online Learning</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/graphics_design_thumbnail.png" />Graphics & Design</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/other_resources_thumbnail.png" />Other Resources</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/blog_thumbnail.png" />Blog</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/about_icon_thumbnail.png" />About the Founder</a></li>
+                        <li><a href="#"><img id="thumbnail" src="img/email_icon_2_thumbnail.png" />Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span id="menuButton" onclick="openNav()">&#9776;</span>
+
+            <script>
+            /* Open when someone clicks on the span element */
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+        </nav>
+        <!--Style the main content for mobile-->
+        <header class="mobile"><p>About ETA: NOW</p></header>
+        <div class="flex-grid" id="mobileSubheading">What is the our purpose and mission?</div>
+
+        <!--Style the main content for tablet and desktop-->
+        <div class="flex-grid" id="mainInfo">
+            <div id="bootcampHeading">About ETA: NOW</div>
+        </div>
+        <div class="flex-grid" id="bootcampSubheading">&nbsp;</div>
+
+        <div class="flex-grid" id="whyText">
+            <div id="description">
+                ETA:NOW is a project that connects refugees and other under-represented populations (e.g. women, people of color) with free resources that teach skills for web development and design. We believe in empowering individuals by providing them with access to the tools they need to learn a valuable, marketable new skill. <br />
+                <br />If you are an organisation offering free or discounted technology, web development, or design courses to under-represented populations and you would like to be featured on this site, please get in touch!
+            </div>
+        </div>
+       
+    </div>
+
+
+    <div class="flex-grid" id="footer">
+        <div id="footerIcon"><a href="#"><img src="img/about_icon.png" /></a></div>
+        <div id="footerIcon"><a href="#"><img src="img/email_icon_2.png" /></a></div>
+    </div>
+
+</body>
+</html>
