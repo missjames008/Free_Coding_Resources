@@ -145,13 +145,28 @@ ul {
 #mainText {
     display: flex;
     flex: 1;
-    height: 35vh;
+    height: 45vh;
     background-color: #08676d;
     color: #fff;
     font-weight: bold;
     font-size: 3em;
     justify-content: center !important;
-    align-items: flex-end;
+    align-items: center;
+}
+
+#mainText > h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+    padding-right: 100px;
+}
+
+#description {
+    display: flex;
+    flex: 1;
+    padding: 25px;
+    font-size: 1.5em;
 }
 
 #weMobile {
@@ -308,8 +323,10 @@ ul {
    color: black;
    margin: 15% auto; /* 15% from the top and centered */
    padding: 30px;
+   text-align: left;
    border: 1px solid #888;
    width: 40%; /* Could be more or less, depending on screen size */
+
 }
 
 /* The Close Button */
