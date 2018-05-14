@@ -105,3 +105,93 @@ btn6.onclick = function() {
 span6.onclick = function() {
     modal6.style.display = "none";
 }
+
+//Get the modal for Ada
+var modal7 = document.getElementById('myModal7');
+
+// Get the button that opens the modal
+var btn7 = document.getElementById("myBtn7");
+//
+// // Get the <span> element that closes the modal
+var span7 = document.getElementsByClassName("close7")[0];
+
+// When the user clicks on the button, open the modal
+btn7.onclick = function() {
+    modal7.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span7.onclick = function() {
+    modal7.style.display = "none";
+}
+
+//Get the modal for Code Fellows
+var modal8 = document.getElementById('myModal8');
+
+// Get the button that opens the modal
+var btn8 = document.getElementById("myBtn8");
+//
+// // Get the <span> element that closes the modal
+var span8 = document.getElementsByClassName("close8")[0];
+
+// When the user clicks on the button, open the modal
+btn8.onclick = function() {
+    modal8.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span8.onclick = function() {
+    modal8.style.display = "none";
+}
+
+//Get the modal for Code Fellows
+var modal9 = document.getElementById('myModal9');
+
+// Get the button that opens the modal
+var btn9 = document.getElementById("myBtn9");
+//
+// // Get the <span> element that closes the modal
+var span9 = document.getElementsByClassName("close9")[0];
+
+// When the user clicks on the button, open the modal
+btn9.onclick = function() {
+    modal9.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span9.onclick = function() {
+    modal9.style.display = "none";
+}
+
+//Get the modal for Flatiron School
+var modal10 = document.getElementById('myModal10');
+
+// Get the button that opens the modal
+var btn10 = document.getElementById("myBtn10");
+//
+// // Get the <span> element that closes the modal
+var span10 = document.getElementsByClassName("close10")[0];
+
+// When the user clicks on the button, open the modal
+btn10.onclick = function() {
+    modal10.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span10.onclick = function() {
+    modal10.style.display = "none";
+}
+
+//Get the modal for Flatiron School
+var modal11 = document.getElementById('myModal11');
+
+// Get the button that opens the modal
+var btn11 = document.getElementById("myBtn11");
+//
+// // Get the <span> element that closes the modal
+var span11 = document.getElementsByClassName("close11")[0];
+
+// When the user clicks on the button, open the modal
+btn11.onclick = function() {
+    modal11.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span11.onclick = function() {
+    modal11.style.display = "none";
+}
